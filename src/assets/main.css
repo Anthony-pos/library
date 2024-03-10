@@ -1,18 +1,10 @@
-@import './base.css';
+/* @import './base.css';
 
 #app {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   font-weight: normal;
-}
-
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
 }
 
 @media (hover: hover) {
@@ -32,4 +24,34 @@ a,
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
   }
+} */
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(141, 130, 130);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: brightness(0.5);
+}
+
+form {
+  background-color: aliceblue;
+  margin: 260px auto;
+  padding: 2em;
+  width: 260px;
+  height: 260px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 0.5em;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+  font-size: x-small;
 }
