@@ -22,7 +22,7 @@ const state = reactive({
     circleUrl:
         'https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png'
 })
-const { circleUrl , fit } = toRefs(state)
+const { circleUrl, fit } = toRefs(state)
 
 const userName = ref('Anthony')
 </script>
@@ -42,8 +42,6 @@ img {
     width: 30px;
 }
 
-
-
 h2 {
     display: flex;
     justify-content: center;
@@ -62,7 +60,21 @@ h2 {
     align-items: center;
     margin-right: 16px;
 }
-.userNameDiv p{
+
+.userNameDiv p {
     margin: 0;
+}
+
+.avatar:hover {
+    cursor: pointer;
+}
+
+.information {
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
 }
 </style>
